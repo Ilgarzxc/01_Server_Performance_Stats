@@ -31,5 +31,5 @@ Please, insert required option:
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
 <details>
 <summary>output of the script</summary>
-[Imgur](https://imgur.com/Zkfizas)
+![Imgur](https://imgur.com/Zkfizas)
 </details>

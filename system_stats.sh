@@ -11,10 +11,6 @@ printf "echo ===Choose required server information=== \n1) Overview \n2) CPU Usa
 read -p "\nPlease, insert required option:" choice
 
 case "$choice" in:
-    1) 
-    2) cpuUsage ;;
-    3) ramUsage ;;
-    4)
-    5)
-    6)
+    1) cpuUsage ;;
+    2) ramUsage ;;
 esac

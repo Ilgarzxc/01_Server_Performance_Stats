@@ -29,7 +29,4 @@ Please, insert required option:
 </details>
 
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
-<details>
-<summary>output of the script</summary>
-![Imgur](https://imgur.com/Zkfizas)
-</details>
+   ![Server performance stats script menu showing options for CPU usage, RAM usage, disk usage, and process monitoring](https://imgur.com/Zkfizas)

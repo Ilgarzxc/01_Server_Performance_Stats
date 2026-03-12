@@ -30,6 +30,6 @@ Please, insert required option:
 
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
 <details>
-<summary>example</summary>
-[output](https://i.imgur.com/Zkfizas.png)
+<summary>output of the script</summary>
+![output of the script](https://i.imgur.com/Zkfizas.png)
 </details>

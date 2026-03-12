@@ -31,5 +31,5 @@ Please, insert required option:
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
 <details>
 <summary>example</summary>
-[output](https://drive.google.com/uc?export=view&id=1KrGepMKWDP8iXZktrKM1e4AJX1jbuQ9b)
+[output](https://i.imgur.com/Zkfizas.png)
 </details>

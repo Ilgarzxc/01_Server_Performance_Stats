@@ -11,7 +11,6 @@ When script will be executed you will see available options and you will be able
 ## How to run it?
 
 1. Clone repo to your machine (one of the options to use: git clone https://github.com/Ilgarzxc/01_Server_Performance_Stats.git)
-2. Since we have multiple files in ./modules folder and all these files along with our system_stats.sh need to be executable, we need to start from a single-line command (should be executed from downloaded repo folder)
+2. Since we have multiple files in ./modules folder and all these files along with our system*stats.sh need to be executable, we need to start from a single-line command (should be executed from downloaded repo folder)
    `find . -type f -name "*.sh" -exec chmod +x {} \;`
-
-_this command will make all .sh files in the designated folder executable_
+   \_this command will make all .sh files in the designated folder executable*

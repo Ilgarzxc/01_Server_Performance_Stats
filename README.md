@@ -31,51 +31,5 @@ Please, insert required option:
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
 <details>
 <summary>example</summary>
-CPU USAGE:
-|--------------------------------------------------------------|
-| Category                                 | %                 |
-|--------------------------------------------------------------|
-| Un-ninced user processes                 | 0.0               | 
-| Kernel processes                         | 2.6               | 
-| Niced user processes                     | 0.0               | 
-| Kernel idle handler                      | 97.4              | 
-| Waiting for I/O completion               | 0.0               | 
-| Servicing hardware interrupts            | 0.0               | 
-| Servicing software interrupts            | 0.0               | 
-| Time stolen by the hypervisor (optional) | 0.0               | 
-|--------------------------------------------------------------|
-DISK USAGE:
-|--------------------------------------------------------------|
-| Total space                              | 104G              | 
-| Used space                               | 16G               | 
-| Free space                               | 84G               | 
-| Percentage of used space                 | 16%               | 
-|--------------------------------------------------------------|
-RAM USAGE:
-|--------------------------------------------------------------|
-| Total RAM                                | 7.8Gi             | 
-| Used RAM                                 | 1.3Gi             | 
-| Free RAM                                 | 3.2Gi             | 
-| % of used RAM                            | 17.13%            | 
-|--------------------------------------------------------------|
-TOP 5 PROCESS ORDER BY CPU USAGE:
-|-----------------------------------------------------------------|
-|Process                                  | CPUUsg | PID          | 
-|-----------------------------------------------------------------|
-|/usr/bin/gnome-shell                     | 1.2    | 3530         |
-|/usr/libexec/gnome-terminal-server       | 0.2    | 6403         |
-|/usr/bin/ibus-daemon                     | 0.0    | 3634         |
-|gjs                                      | 0.0    | 9999         |
-|/usr/bin/VBoxDRMClient                   | 0.0    | 2102         |
-|-----------------------------------------------------------------|
-TOP 5 PROCESS ORDER BY RAM USAGE:
-|-----------------------------------------------------------------|
-|Process                                  | RAMUsg | PID          | 
-|-----------------------------------------------------------------|
-|/usr/bin/gnome-shell                     | 3.8    | 3530         |
-|/usr/bin/nautilus                        | 2.2    | 6250         |
-|/usr/bin/Xwayland                        | 1.1    | 3623         |
-|/usr/libexec/mutter-x11-frames           | 1.1    | 4216         |
-|/usr/libexec/gsd-xsettings               | 1.0    | 4094         |
-|-----------------------------------------------------------------|
+[output](https://drive.usercontent.google.com/download?id=1KrGepMKWDP8iXZktrKM1e4AJX1jbuQ9b&export=view&authuser=0)
 </details>

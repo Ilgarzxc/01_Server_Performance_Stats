@@ -2,16 +2,16 @@
 
 function cpuUsage() {
     #To avoid multi-usage of 'top' command we will save output of top command once into variable
-    cpu_line=$(top -b -n 1 | grep '%Cpu')
+    local cpu_line=$(top -b -n 1 | grep '%Cpu')
     #and split it to the required variables for further usage
-    unnice=$(echo $cpu_line | awk -F , '{print $1}' | awk '{print $2}')
-    kernel=$(echo $cpu_line | awk -F , '{print $2}' | awk '{print $1}')
-    niced=$(echo $cpu_line | awk -F , '{print $3}' | awk '{print $1}')
-    idle=$(echo $cpu_line | awk -F , '{print $4}' | awk '{print $1}')
-    waitingio=$(echo $cpu_line | awk -F , '{print $5}' | awk '{print $1}')
-    hw_interrupts=$(echo $cpu_line | awk -F , '{print $6}' | awk '{print $1}')
-    sw_interrupts=$(echo $cpu_line | awk -F , '{print $7}' | awk '{print $1}')
-    stolen_by_hyperv=$(echo $cpu_line | awk -F , '{print $8}' | awk '{print $1}')
+    local unnice=$(echo $cpu_line | awk -F , '{print $1}' | awk '{print $2}')
+    local kernel=$(echo $cpu_line | awk -F , '{print $2}' | awk '{print $1}')
+    local niced=$(echo $cpu_line | awk -F , '{print $3}' | awk '{print $1}')
+    local idle=$(echo $cpu_line | awk -F , '{print $4}' | awk '{print $1}')
+    local waitingio=$(echo $cpu_line | awk -F , '{print $5}' | awk '{print $1}')
+    local hw_interrupts=$(echo $cpu_line | awk -F , '{print $6}' | awk '{print $1}')
+    local sw_interrupts=$(echo $cpu_line | awk -F , '{print $7}' | awk '{print $1}')
+    local stolen_by_hyperv=$(echo $cpu_line | awk -F , '{print $8}' | awk '{print $1}')
 
     echo "CPU USAGE:"
     echo "|--------------------------------------------------------------|"

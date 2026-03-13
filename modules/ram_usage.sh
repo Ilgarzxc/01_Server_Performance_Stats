@@ -12,9 +12,9 @@ function ramUsage() {
 
     echo "RAM USAGE:"
     echo "|--------------------------------------------------------------|"
-    printf "| %-40s | %-18s| \n" "Total RAM" $total_ram
-    printf "| %-40s | %-18s| \n" "Used RAM" $used_ram
-    printf "| %-40s | %-18s| \n" "Free RAM" $free_ram
-    printf "| %-40s | %-18s| \n" "% of used RAM" "$ram_usage%"
+    printf "| %-35s | %-23s| \n" "Total RAM" $total_ram
+    printf "| %-35s | %-23s| \n" "Used RAM" $used_ram
+    printf "| %-35s | %-23s| \n" "Free RAM" $free_ram
+    printf "| %-35s | %-23s| \n" "% of used RAM" "$ram_usage%"
     echo "|--------------------------------------------------------------|"
 }

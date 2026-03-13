@@ -17,7 +17,7 @@ function cpuUsage() {
     echo "|--------------------------------------------------------------|"
     printf "| %-40s | %-17s |\n" "Category" "%"
     echo "|--------------------------------------------------------------|"
-    printf "| %-40s | %-18s| \n" "Un-ninced user processes" $unnice
+    printf "| %-40s | %-18s| \n" "Un-niced user processes" $unnice
     printf "| %-40s | %-18s| \n" "Kernel processes" $kernel
     printf "| %-40s | %-18s| \n" "Niced user processes" $niced 
     printf "| %-40s | %-18s| \n" "Kernel idle handler" $idle

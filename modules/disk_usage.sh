@@ -7,10 +7,10 @@ function diskUsage() {
 
     echo "DISK USAGE:"
     echo "|--------------------------------------------------------------|"
-    printf "| %-35s | %-23s| \n" "Total space" $total_space
-    printf "| %-35s | %-23s| \n" "Used space" $used_space
-    printf "| %-35s | %-23s| \n" "Free space" $free_space
-    printf "| %-35s | %-23s| \n" "Percentage of used space" $percentage_used
+    printf "| %-35s | %-23s | \n" "Total space" $total_space
+    printf "| %-35s | %-23s | \n" "Used space" $used_space
+    printf "| %-35s | %-23s | \n" "Free space" $free_space
+    printf "| %-35s | %-23s | \n" "Percentage of used space" $percentage_used
     echo "|--------------------------------------------------------------|"
 }
 

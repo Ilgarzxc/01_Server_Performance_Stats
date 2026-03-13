@@ -5,7 +5,7 @@ function systemInformation() {
     local uptime=$(uptime -p)
     local logged_users=$(w --no-header | wc -l)
 
-    echo "SYSTEM INFO"
+    echo "SYSTEM INFO:"
     echo "|---------------------------------------------------------------|"
     printf "| %-30s | %-28s | \n" "Operating system version" "$os_version"
     printf "| %-30s | %-28s | \n" "System uptime" "$uptime"

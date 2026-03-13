@@ -14,16 +14,16 @@ function cpuUsage() {
     local stolen_by_hyperv=$(echo $cpu_line | awk -F , '{print $8}' | awk '{print $1}')
 
     echo "CPU USAGE:"
-    echo "|--------------------------------------------------------------|"
-    printf "| %-40s | %-17s |\n" "Category" "%"
-    echo "|--------------------------------------------------------------|"
-    printf "| %-40s | %-18s| \n" "Un-niced user processes" $unnice
-    printf "| %-40s | %-18s| \n" "Kernel processes" $kernel
-    printf "| %-40s | %-18s| \n" "Niced user processes" $niced 
-    printf "| %-40s | %-18s| \n" "Kernel idle handler" $idle
-    printf "| %-40s | %-18s| \n" "Waiting for I/O completion" $waitingio
-    printf "| %-40s | %-18s| \n" "Servicing hardware interrupts" $hw_interrupts
-    printf "| %-40s | %-18s| \n" "Servicing software interrupts" $sw_interrupts
-    printf "| %-40s | %-18s| \n" "Time stolen by the hypervisor (optional)" $stolen_by_hyperv
-    echo "|--------------------------------------------------------------|"
+    echo "|---------------------------------------------------------------|"
+    printf "| %-35s | %-23s | \n" "Category" "%"
+    echo "|---------------------------------------------------------------|"
+    printf "| %-35s | %-23s | \n" "Un-niced user processes" $unnice
+    printf "| %-35s | %-23s | \n" "Kernel processes" $kernel
+    printf "| %-35s | %-23s | \n" "Niced user processes" $niced 
+    printf "| %-35s | %-23s | \n" "Kernel idle handler" $idle
+    printf "| %-35s | %-23s | \n" "Waiting for I/O completion" $waitingio
+    printf "| %-35s | %-23s | \n" "Servicing hardware interrupts" $hw_interrupts
+    printf "| %-35s | %-23s | \n" "Servicing software interrupts" $sw_interrupts
+    printf "| %-35s | %-23s | \n" "Time stolen by the hypervisor" $stolen_by_hyperv
+    echo "|---------------------------------------------------------------|"
 }

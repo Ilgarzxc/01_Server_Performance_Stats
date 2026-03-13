@@ -2,9 +2,9 @@
 
 set -euo pipefail
 
-trap 'echo ""This script execution stopped due to an error in $LINENO"' ERR
+trap 'echo "This script execution stopped due to an error in $LINENO"' ERR
 
-REQUIRED_CMDS=("top" "free" "df" "uname" "awk" "grep" "uname" "lsb_release "printf" "read" "bash")
+REQUIRED_CMDS=("top" "free" "df" "uname" "awk" "grep" "uname" "lsb_release" "printf" "read" "bash")
 for cmd in "${REQUIRED_CMDS[@]}"; do
     if ! command -v "$cmd" &> /dev/null; then
         echo "Error: $cmd is not installed. Please install it and try again."

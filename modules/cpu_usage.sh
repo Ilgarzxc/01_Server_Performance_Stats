@@ -24,6 +24,6 @@ function cpuUsage() {
     printf "| %-35s | %-23s| \n" "Waiting for I/O completion" $waitingio
     printf "| %-35s | %-23s| \n" "Servicing hardware interrupts" $hw_interrupts
     printf "| %-35s | %-23s| \n" "Servicing software interrupts" $sw_interrupts
-    printf "| %-35s | %-23s| \n" "Time stolen by the hypervisor (optional)" $stolen_by_hyperv
+    printf "| %-35s | %-23s| \n" "Time stolen by the hypervisor" $stolen_by_hyperv
     echo "|--------------------------------------------------------------|"
 }

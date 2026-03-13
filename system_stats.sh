@@ -11,7 +11,7 @@ source ./modules/top5_cpu_usage.sh
 source ./modules/top5_mem_usage.sh
 source ./modules/os_info.sh
 
-printf "PLEASE, CHOOSE REQUIRED SERVER INFORMATION: \n1) Overview \n2) CPU Usage \n3) RAM Usage \n4) Disk Usage \n5) Top 5 processes by CPU usage \n6) Top 5 processes by memory usage \n7) System information" 
+printf "PLEASE, CHOOSE REQUIRED SERVER INFORMATION: \n1) Overview \n2) CPU Usage \n3) RAM Usage \n4) Disk Usage \n5) Top 5 processes by CPU usage \n6) Top 5 processes by memory usage \n7) System information \n" 
 read -p "Please, insert required option:" choice
 
 case "$choice" in

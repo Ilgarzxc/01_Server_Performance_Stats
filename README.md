@@ -25,8 +25,9 @@ PLEASE, CHOOSE REQUIRED SERVER INFORMATION:
 4) Disk Usage
 5) Top 5 processes by CPU usage
 6) Top 5 processes by memory usage
+7) System information
 Please, insert required option:
 </details>
 
 5. Depending on the chosen option you will see either a full output of this script or partial information which you requested.
-   ![Server performance stats script menu showing options for CPU usage, RAM usage, disk usage, and process monitoring](https://i.imgur.com/Zkfizas.png)
+   ![Server performance stats script menu showing options for CPU usage, RAM usage, disk usage, and process monitoring](https://i.imgur.com/Hg7mXVT.png)

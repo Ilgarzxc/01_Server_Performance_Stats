@@ -13,6 +13,8 @@ usage of CPU, hard drive(s) and random access memory.
 We have the main system_stats.sh script with connected modules / functions (can be found in ./modules folder).
 When script will be executed you will see available options and you will be able either execute all functions at once or choose required information about your system.
 
+## Main script and modules explanation
+
 ## How to run it?
 
 1. Clone repo to your machine (one of the options to use: git clone https://github.com/Ilgarzxc/01_Server_Performance_Stats.git)
